@@ -1,0 +1,66 @@
+.filepond--drop-label {
+	color: #4c4e53;
+}
+
+.filepond--label-action {
+	text-decoration-color: #babdc0;
+}
+
+.filepond--panel-root {
+	border-radius: 2em;
+	background-color: #edf0f4;
+	height: 1em;
+}
+
+.filepond--item-panel {
+	background-color: #595e68;
+}
+
+.filepond--drip-blob {
+	background-color: #7f8a9a;
+}
+
+body {
+	color:white;
+	background-color:#2D2D35;
+	padding:100px;
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  border: 2px solid white;
+}
+#hrs {
+	border-top: 0.5px solid #797979;
+	border-bottom: 0.5px solid #797979;
+}
+#orange {
+	color:orange;
+}
+ul {
+    list-style:none;
+}
+#tareas{
+	background-color:#616161;
+	padding:5px;
+}
+li {
+	border-bottom: 0.5px solid #797979;
+}
+#borrar {
+	width:50px; 
+	height:50px; 
+	margin-right:-30px;
+}
+#tabla {
+	width:100%;
+}
+.list-enter-active{
+  transition: all 1s;
+}
+.list-enter{
+  opacity: 0;
+  transform: translateY(30px);
+}
